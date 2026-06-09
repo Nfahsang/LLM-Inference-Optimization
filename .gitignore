@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables
+.env
+*.env.local
+
+# CUDA / compiled artifacts
+*.o
+*.so
+*.ptx
+*.cubin
+*.fatbin
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Model weights — too large for git; stage on Runpod network volume
+data/
+*.bin
+*.safetensors
+*.gguf
+*.ggml
+*.pt
+*.pth
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# vLLM / SGLang server logs
+nohup.out
+*.log
+server.pid
